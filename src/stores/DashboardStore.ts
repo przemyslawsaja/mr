@@ -33,7 +33,7 @@ class DashboardStore {
   @action
   public fetchAddress = async (): Promise<void> => {
     this.isLoading = true;
-    const ipDetailsPath = `https://api.ipstack.com/${ this.search }?access_key=${ process.env.REACT_APP_IP_STACK_KEY }`
+    const ipDetailsPath = `http://api.ipstack.com/${ this.search }?access_key=${ process.env.REACT_APP_IP_STACK_KEY }`
     await axios.get(ipDetailsPath)
       .then((response) => {
         if (response.data.error) {
