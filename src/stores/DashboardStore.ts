@@ -41,6 +41,7 @@ class DashboardStore {
         }
         this.addressDetails = AddressDetails.create(response.data)
       })
+
     this.isLoading = false;
   }
 
