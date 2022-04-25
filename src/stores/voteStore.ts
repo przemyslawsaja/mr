@@ -98,12 +98,12 @@ class VoteStore {
   }
 
   @action
-  public setVoteSubId = (value: string) => {
+  public setVoteSubId = (value: string):void => {
     this.voteSubId = value
   }
 
   @action
-  public setVoteValue = (value: number) => {
+  public setVoteValue = (value: number):void => {
     this.voteValue = value;
   }
 
