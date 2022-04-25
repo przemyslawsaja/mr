@@ -4,7 +4,6 @@ import { toast } from 'react-toastify';
 import { API_CONFIG, API_URL } from '../api/config';
 
 
-
 type Vote = {
   country_code: string
   created_at: string,
@@ -76,7 +75,7 @@ class VoteStore {
       value: this.voteValue
     }
 
-    axios.post(`${ api }/votes`, payload, config)
+    axios.post(`${ API_URL }/votes`, payload, API_CONFIG)
       .then((response) => {
           if (response.data.error) {
             return toast.error(response.data.error.info)
