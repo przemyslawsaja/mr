@@ -34,11 +34,11 @@ export interface IBrandColors {
 
 export const colors: Colors = {
   brand: {
-    primary100: '#f8a997',
-    primary200: '#f59880',
-    primary300: '#FE8E72',
-    primary400: '#f38468',
-    primary500: '#dd7055',
+    primary100: '#7ad0f5',
+    primary200: '#53c6f6',
+    primary300: '#27bfff',
+    primary400: '#1da6e0',
+    primary500: '#1385b5',
     background100: '#3a3b45',
     background200: '#2c2d35',
     background300: '#1d1e24',

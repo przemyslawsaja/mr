@@ -28,7 +28,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     height: 100vh;
-    background: ${ theme.colors.brand.background300 };
+    background: '#fff';
     color: ${ GlobalTheme.textColor };
 
   }
